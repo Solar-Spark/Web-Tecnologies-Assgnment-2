@@ -31,7 +31,6 @@ header{
     justify-content: space-between;
     padding: 15px 100px;
     transition: 0.5s;
-    /* background: var(--main-color); */
 }
 header.shadow{
     background: var(--bg-color);
@@ -130,22 +129,24 @@ section{
 }
 /* movies  */
 .heading{
-    max-width: 968px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2rem;
     font-size: 1.2rem;
     font-weight: 500;
     text-transform: uppercase;
-    border-bottom: 1px solid var(--main-color);
+    border-bottom: 2px solid var(--main-color);
 }
 .movies-container{
-    max-width: 968px;
+    max-width: 970px;
     margin-right: auto;
     margin-left: auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px,auto));
     gap: 1rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 .box .box-img{
     width: 100%;
