@@ -28,24 +28,10 @@ header{
     z-index: 1000;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 15px 100px;
     transition: 0.5s;
 }
-header.shadow{
-    background: var(--bg-color);
-    box-shadow: 0 0 4px rgb(14 55 54/15%);
-}
-header.shadow .nav-panel a{
-    color: var(--text-color);
-}
-header.shadow .logo{
-    color: var(--text-color);
-}
 
-.bx{
-    color: var(--main-color);
-}
 .nav-panel{
     display: flex;
     column-gap: 5rem;
