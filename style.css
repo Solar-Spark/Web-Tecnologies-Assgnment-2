@@ -132,6 +132,45 @@ section{
 .film-box span{
     font-size: 14px;
 }
+
+
+
+.game-box .image-frame{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+.game-box .image-frame img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.game-box .image-frame img:hover{
+    transform: translateY(-10px);
+    transition: 0.2s all linear;
+}
+.game-box h3{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.game-box span{
+    font-size: 14px;
+}
+
+.games-grid{
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,auto));
+    gap: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+
+
 .team-members{
     padding: 1.5rem 0;
     font-size: 0.9rem;
